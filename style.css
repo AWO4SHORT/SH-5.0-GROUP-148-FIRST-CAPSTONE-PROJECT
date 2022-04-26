@@ -1,0 +1,407 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: hsl(218, 28%, 13%);
+    width: 100%; 
+}
+
+
+nav{
+    background-color: hsl(217, 28%, 15%);;
+    display: flex;
+    justify-content: space-between;
+}
+nav.img{
+    width: 50%;
+    height: auto;
+}
+ul li{
+    display: inline-block;
+}
+
+a:link{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+.navlinks:link{
+    color: hsl(0, 0%, 100%);
+    padding-inline-end: 50px;   
+}
+
+header{ 
+    width:100% ;
+    height:auto;
+    margin:auto;
+    background:url("bg-curvy-desktop.svg") no-repeat bottom, hsl(217, 28%, 15%);  
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.top{
+    margin:10px auto;
+}
+.topimg{
+    width: 500px;
+    height: auto;
+}
+
+.bottom{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1,h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px; 
+    font-family: 'Open Sans', sans-serif;
+}
+.paragraph1{
+    width:400px;
+    margin:auto;
+}
+
+.headerlink{
+    margin:20pxauto;
+    width: fit-content;
+    background-image:linear-gradient(hsl(176, 68%, 64%),hsl(198, 60%, 50%)) ;
+    border: 5px, solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Section2{
+    background: hsl(218, 28%, 13%);
+    width: 100%;
+    margin-top: 50px;
+}
+div1{ 
+    width: auto;
+    height:max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top-div{
+    margin: auto;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-div{
+    margin: auto;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+}
+.right-pane{
+    margin: 50px;
+    padding: auto;
+}
+.left-pane{
+    margin: 50px;
+    padding: auto;
+}
+.Services{
+    display: flex;
+    margin: 100px auto;
+}
+
+.servimg{
+    width:500px;
+    height: auto;
+}
+.Copy{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.Copy h1{
+    width: 300px;
+}
+
+.copylink:link{
+    text-decoration: underline;
+    color: hsl(176, 68%, 64%);
+}
+
+.quotes{
+    padding-left: 70px;
+    position: relative;
+    bottom: -10px;
+    z-index: 1;
+    
+
+}
+.testimonials{
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    z-index: 2;
+
+}
+.client1{
+    width: 350px;
+    height:200px;
+    padding: 20px;
+    background-color:  hsl(219, 30%, 18%);
+    border:2px solid  hsl(219, 30%, 18%);
+    border-radius: 10px;
+    color:  hsl(219, 30%, 18%) hsl(217, 28%, 15%);
+}
+.profileimg{
+    Width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+}
+
+.client2{
+    width: 350px;
+    height:200px;
+    padding: 20px;
+    background-color:  hsl(219, 30%, 18%);
+    border:2px solid  hsl(219, 30%, 18%);
+    border-radius: 10px;
+    color:  hsl(219, 30%, 18%);
+}
+.client3{
+    width: 350px;
+    height:200px;
+    padding: 20px;
+    background-color:  hsl(219, 30%, 18%);
+    border:2px solid  hsl(219, 30%, 18%);
+    border-radius: 10px;
+    color:  hsl(219, 30%, 18%);
+}
+.subscribe{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    border:2px solid  hsl(217, 28%, 15%);
+    border-radius: 10px;
+    text-align:center;
+    background-color:  hsl(217, 28%, 15%);
+    position: relative;
+    bottom: -150px;
+    z-index: 9999;
+}
+
+Footer{
+    width: 100%;
+    background-color: hsl(216, 53%, 9%);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.footerlogo{
+    margin: 0px 20px;
+    padding-top: 150px;
+
+}
+.footercontent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+.link{
+    display: flex;
+}
+.emaillink{
+    margin:15px;
+    width: 300px;
+    background-color:white;
+    border: 5px, solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.emaillink2{
+    margin:15px;
+    width: max-content;
+    background-image:linear-gradient(hsl(176, 68%, 64%),hsl(198, 60%, 50%)) ;
+    border: 5px, solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.location{
+    width: 500px;   
+}
+
+.footertext{
+    margin: 3px;
+    padding:0px 40px;
+}
+.footerimg{
+    float: left;
+}
+
+.footercontent li{
+    display: block;
+    line-height: 30px;
+}
+.smicons{
+    margin-left: 50px;
+}
+.smicons img{
+    width: 5%;
+    height: auto;
+    padding: 0px 5px;
+}
+
+@media screen and (max-width:795px) {
+
+    nav{
+        margin-top: 10px;
+    }
+    nav img{
+        Width: 50%;
+        height: auto;
+    }
+    h2{
+        font-size:large;
+        line-height: 2em; 
+    }
+    .navlinks:link{ 
+        font-size: 12px;
+        padding-inline-end: 0px;
+    }
+    header{
+        background-image: none;
+        background:url("imagesbg-curvy-mobile.svg") no-repeat bottom, hsl(217, 28%, 15%);
+        align-items: center;
+    }
+    .top{
+        margin:auto;
+    }
+    .topimg{
+        width: 100%;
+        height: auto;
+        margin: auto;
+
+    }
+    .bottom{
+        width:250px;
+        padding: 0px;
+    }
+    .bottom h1 {
+        font-size: larger;
+        line-height:2em;
+    }
+
+    .paragraph1{
+        width:250px;
+        font-size: 12px;  
+    }
+
+    div1{
+        justify-content: center;
+    }
+    .top-div{
+        flex-direction: column;
+    }
+    .bottom-div{
+        flex-direction: column;
+    }
+    .Services{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .servimg{
+        width: 400px;
+        height: auto;
+    }
+    .Copy{
+        width: 300px;
+        padding:0px;
+    }
+    .Copy h1{
+        width: 400px;
+        font-size: large;
+        padding: 10px 0px;
+    }
+    .quotes{
+        padding: 0px;
+    }
+    .testimonials{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;       
+    }
+    .client1{
+        width: 300px;
+        height: 200px;
+        margin: 0px 50px;
+    }
+    .client2{
+        width: 300px;
+        height: 200px;
+        margin: 50px auto;
+    }
+    .client3{
+        width: 300px;
+        height: 200px;
+        margin: 0px 50px auto;
+    }
+    .subscribe{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        bottom: -100px;
+    }
+    .subscribe h1{
+        font-size: large;
+        line-height: 3em;
+    }
+    .link{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .emaillink2{
+        width: 300px;
+    }
+    Footer{
+        width: 100%;
+    }
+    .footercontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .location{
+        width: 350px;
+    }
+    .phone{
+    margin-bottom: 20px;
+    }
+    .footercontent ul{
+        margin-bottom: 20px;
+    }
+    .smicons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    .smicons img{
+        width: 20%;
+        height: auto;
+    }   
+}
